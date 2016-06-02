@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>DISPLAY PAGE</title>
+  <link rel='stylesheet' href='/style' />
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="output">
+<% for (var key in output) { %>
+  <% if (key === 'action') { %>
+    <div class = "name">
+      <%= key %> :
+    </div>
+    <div class="action">
+      <%= output[key] %>
+    </div>
+
+    <% } else { %>
+      <div class = "name">
+        <%= key %> :
+      </div>
+      <div class="value">
+        <%= output[key] %>
+      </div>
+      <% } %>
+<% } %>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+background-color: #4285F4;
+}
+
+#logo {
+  position: absolute;
+  left: 400px;
+  font-size: 3.5em;
+  font-family: 'Dosis', sans-serif;
+}
+
+#origin {
+  position: absolute;
+  left: 150px;
+  top: 300px;
+  width: 200px;
+  height: 40px;
+  border:none;
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+
+}
+#destination {
+  position: absolute;
+  left: 400px;
+  top: 300px;
+  width: 200px;
+  height: 40px;
+  border:none;
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+}
+
+#DTA {
+  position: absolute;
+  left: 650px;
+  top: 300px;
+  width: 200px;
+  height: 40px;
+  border:none;
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+}
+
+#submit {
+  position: absolute;
+  left: 900px;
+  top: 300px;
+  width: 100px;
+  height: 40px;
+  border:none;
+  font-size: 1.5em;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  border-radius: 3px;
+  text-align: center;
+}
